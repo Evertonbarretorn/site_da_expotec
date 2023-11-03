@@ -155,18 +155,14 @@ body{
     color: rgb(255, 0, 0);
     background-color: white;
 }
-#tabela{
-    margin-left: 20rem;
-    margin-bottom: 4rem;
+table{
+    border-collapse: collapse;
+    margin-left: 15rem;
 }
-#tabela tr{ 
-    background-color: white;
-    border-color: 10px rgb(2, 2, 255);
-}
-#tabela td{
-
-    background-color: white;
-    padding: 6px;
+tr, th, td{ 
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
 }
 .contato h4{
     font-family: unset;
